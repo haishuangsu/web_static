@@ -1,0 +1,105 @@
+@charset "utf-8";body{font-family:"微软雅黑","宋体";font-size:12px;color:#666}
+a{font-family:"微软雅黑","宋体"}
+.webHeaderTable{height:100px;background:#1c8924;position:relative;margin:0 auto}
+.webHeader{height:100%}
+.webBanner{width:100%!important}
+.banner{width:100%;height:380px;background:url(http://ruihebao.horfu.com/image/template/banners/50003.jpg) 50% 0 no-repeat}
+.webFooterTable{background:#353535}
+.corpTitle{left:30px;top:43px;color:#fff;font-family:"微软雅黑","宋体"}
+.logo{left:10px;top:7px}
+.localer{color:#f1f1f1}
+.localer a{color:#f1f1f1}
+.favorite{color:#fff}
+.favorite a{color:#fff}
+.date{color:#fff}
+.nav{width:660px;position:relative;height:31px;line-height:28px;top:50px;left:35px;font-size:15px}
+.nav .navMainContent{width:660px;height:31px}
+.nav .navLeft{background:no-repeat right}
+.nav .navRight{background:no-repeat left}
+.nav .item .itemLeft{display:table-cell;*display:block;width:4PX;height:26PX}
+.nav .item .itemCenter{vertical-align:middle}
+.nav .item .itemCenter a{color:#FFF;font-weight:bold}
+.nav .item .itemRight{display:table-cell;*display:block;width:4PX;height:26PX}
+.nav .itemHover .itemLeft{background:url(../../image/nav_left01.png) no-repeat;_background:url(../../image/nav_left01.gif) no-repeat;display:table-cell;*display:block;width:4px}
+.nav .itemHover .itemCenter{background:url(../../image/nav_middle01.png) repeat-x}
+.nav .itemHover .itemCenter a{color:#209429;font-weight:bold}
+.nav .itemHover .itemRight{background:url(http://ruihebao.horfu.com/image/nav_right01.png) no-repeat;_background:url(../../image/nav_right01.gif) no-repeat;display:table-cell;*display:block;width:4px}
+.nav .itemSelected .itemLeft{background:url(../../image/nav_left01.png) no-repeat;_background:url(../../image/nav_left01.gif) no-repeat;display:table-cell;*display:block;width:4px}
+.nav .itemSelected .itemCenter{background:url(../../image/nav_middle01.png) repeat-x}
+.nav .itemSelected .itemCenter a{color:#209429;font-weight:bold}
+.nav .itemSelected .itemRight{background:url(http://ruihebao.horfu.com/image/nav_right01.png) no-repeat;_background:url(../../image/nav_right01.gif) no-repeat;display:table-cell;*display:block;width:4px}
+.navSubMenu .content{border:#5bb40a solid 1px;border-top:#5bb40a solid 1px;background:#5ca012}
+.navSubMenu .item{line-height:30px}
+.navSubMenu .item a{color:#fff}
+.navSubMenu .itemHover{background:#5eb80d}
+.navSubMenu .itemHover a{color:#fff}
+.subMenu .content{background:#5ca012;border:#5bb40a solid 1px;border-top:#5bb40a solid 1px}
+.footer{color:#888;padding-top:18px}
+.footer a{color:#888}
+.footer a:hover{color:#56ac08}
+.footerItemSpacing .footerVerticalLine{background-color:#888}
+.forms .formBannerMore a{color:#fafafa}
+.forms .formMiddle .g_border{border-color:#ccc}
+.forms .formMiddle .g_borderHover{border-color:#5bb40a}
+.forms .formMiddle .g_borderSelected{border-color:#5ca012}
+.forms .formMiddle .g_separator{border-color:#999}
+.forms .formMiddle .g_selected{background:#5db50a;color:#fff}
+.forms .formMiddle .g_selected a{color:#fff}
+.forms .formMiddle .g_title{background:#ccc}
+.forms .formMiddle .g_block{background:#5bb40a}
+.forms .formMiddle .g_hover{background:#ddd;color:#000}
+.forms .formMiddle .g_hover a{color:#000}
+.forms .formMiddle .g_tip{background:#fff799;border:1px solid #ffda99}
+.forms .formMiddle .g_panel{background:#f3f5f7;color:#333}
+.forms .formMiddle .g_panel a{color:#333}
+.forms .formMiddle .g_panelArrow{color:#f3f5f7}
+.forms .g_close{background:url(http://ruihebao.horfu.com/image/imgClose.gif) -37px -480px no-repeat}
+.forms .g_close:hover{background:url(http://ruihebao.horfu.com/image/imgClose.gif) -0px -480px no-repeat}
+.forms .formMiddle .g_imgPrev{background:url(http://ruihebao.horfu.com/image/imgPrevNext.gif) -36px -1564px no-repeat}
+.forms .formMiddle .g_imgNext{background:url(http://ruihebao.horfu.com/image/imgPrevNext.gif) -0px -1564px no-repeat}
+.forms .formMiddle .g_mallBuy{background:url(http://ruihebao.horfu.com/image/buyB3.png?v=201310281734) no-repeat 0 -128px}
+.forms .formMiddle .g_mallBuy span{background:url(http://ruihebao.horfu.com/image/buyB3.png?v=201310281734) 0 -158px repeat-x}
+.forms .formMiddle .g_mallBuyBig{background:url(http://ruihebao.horfu.com/image/buyB2.png?v=201504271715) no-repeat 0 -192px}
+.forms .formMiddle .g_mallBuyBig span{background:url(http://ruihebao.horfu.com/image/buyB2.png?v=201504271715) 0 -240px repeat-x}
+.forms .formMiddle .g_stress{color:#5ca012}
+.forms .formMiddle .g_stress a{color:#5ca012}
+.forms .formMiddle .fk-mallBuy{background-color:#5ca20d}
+.forms .formMiddle .fk-mallBuy-big{background-color:#5ca20d}
+.forms .formMiddle .fk-mall-addCart{background-color:#f4ffe6;border-color:#5ca20d}
+.forms .formMiddle .fk-mall-addCart span{color:#5ca20d}
+.sideForms .formBanner{background:#56ac08;height:40px;line-height:40px}
+.sideForms .formBanner .left{display:table-cell;*display:block;width:10px}
+.sideForms .formBanner .right{display:table-cell;*display:block;width:10px}
+.sideForms .formBannerTitle .titleText{color:#FFF;font-size:15px}
+.sideForms .formBannerMore a{color:#666;display:inline-block;width:46px;height:14px;background:url(http://ruihebao.horfu.com/image/more.gif) no-repeat;padding:0}
+.sideForms .formBannerMore a span{display:none}
+.sideForms .formMiddle{background:#fff;border:#eee solid 1px;border-top:0}
+.mainForms .form{background-color:#fff}
+.mainForms .formBanner{overflow:scroll;height:39px;line-height:39px;border-bottom:1px solid #bbb}
+.mainForms .formBanner .left{display:table-cell;*display:block;width:2px}
+.mainForms .formBanner .center{color:#333}
+.mainForms .formBanner .right{display:table-cell;*display:block;width:5px}
+.mainForms .formBannerTitle .titleText{font-size:15px}
+.mainForms .formBannerOther{right:10px}
+.mainForms .formBannerMore a{color:#666;display:inline-block;width:46px;height:16px;background:url(http://ruihebao.horfu.com/image/more2.gif) no-repeat;padding:0}
+.mainForms .formBannerMore a span{display:none}
+.mainForms .formMiddle{border-top:1px solid #fff;padding-top:5px}
+.absForms .formBannerMore a{padding-right:13px}
+.g_sB_rt{background:url(http://ruihebao.horfu.com/image/site/float/floata_green1.gif) no-repeat 0 0}
+.g_sB_rc{background:url(http://ruihebao.horfu.com/image/site/float/floata_green1.gif) repeat-y -60px 0;color:#FFF}
+.g_sB_rb{background:url(http://ruihebao.horfu.com/image/site/float/floata_green1.gif) no-repeat -120px 0}
+.g_sB_lt{background:url(http://ruihebao.horfu.com/image/site/float/floata_green1.gif) no-repeat -180px 0}
+.g_sB_lc{background:url(http://ruihebao.horfu.com/image/site/float/floata_green1.gif) repeat-y -240px 0;color:#FFF}
+.g_sB_lb{background:url(http://ruihebao.horfu.com/image/site/float/floata_green1.gif) no-repeat -300px 0}
+.siteBackToTop_small_box{background-position:0 -120px}
+.visitorCounterBg{background:url("http://ruihebao.horfu.com/image/site/visitorCounter/green1.gif") no-repeat scroll 0 0 transparent}
+.formTabButton .formTabMiddleHover{color:#43636a;font-weight:bold}
+.formTabContent{background:#FFF}
+.productFilter .productFilterFold{background:url(http://ruihebao.horfu.com/image/fold.png?v=201304081856) 0 -750px no-repeat}
+.productFilter .productFilterUnfold{background:url(http://ruihebao.horfu.com/image/fold.png?v=201304081856) 0 -710px no-repeat}
+.productFilterVert .productFilterValue a{line-height:30px;word-wrap:break-word;word-break:normal}
+.productFilterVert .productFilterValueCenter{white-space:normal;*word-break:break-all}
+.g_foldContainer .g_fold{background-image:url(http://ruihebao.horfu.com/image/fold/tpl/10_0.png)}
+.g_foldContainer .g_unfold{background-image:url(http://ruihebao.horfu.com/image/fold/tpl/10_1.png)}
+.g_vertFold .g_foldContainerValue a{word-wrap:break-word;word-break:normal}
+.g_vertFold .g_foldContainerValueCenter{*word-break:break-all}

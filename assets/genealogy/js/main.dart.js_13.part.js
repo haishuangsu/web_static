@@ -1,35 +1,32 @@
 self.$__dart_deferred_initializers__=self.$__dart_deferred_initializers__||Object.create(null)
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A={xo:function xo(){},xp:function xp(d,e){this.a=d
-this.$ti=e},
-aMh(d,e){var y,x,w,v,u
-if(d==null)return null
-y=e.Q
-x=d.cx
-if(x==null)x=d.cx=new Map()
-w=e.cy
-v=x.get(w)
-if(v!=null)return v
-u=B.lH(b.typeUniverse,d.z,y,0)
-x.set(w,u)
-return u}},J,B,C
-a.setFunctionNamesIfNecessary([A])
-A=a.updateHolder(c[32],A)
-J=c[1]
-B=c[0]
-C=c[2]
-A.xo.prototype={
-m(d,e){if(e==null)return!1
-return e instanceof A.xo&&J.e(this.a,e.a)&&B.F(this)===B.F(e)},
-gB(d){return B.arm(this.a,B.F(this),C.dM,C.dM)},
-j(d){var y="<"+C.b.bz([B.b8(this.$ti.c)],", ")+">"
-return B.d(this.a)+" with "+y}}
-A.xp.prototype={
-$1(d){return this.a.$1$1(d,this.$ti.Q[0])},
-$2(d,e){return this.a.$1$2(d,e,this.$ti.Q[0])},
-$4(d,e,f,g){return this.a.$1$4(d,e,f,g,this.$ti.Q[0])},
-$S(){return A.aMh(B.jf(this.a),this.$ti)}}
-var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.xo,B.bv)
-y(A.xp,A.xo)})()
-B.c2(b.typeUniverse,JSON.parse('{"xo":{"jt":[]},"xp":{"jt":[]}}'))}
-$__dart_deferred_initializers__["u2qToDZXulH6/FfTRHUy9vfPbWw="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B={
+bX(d,e,f,g,h,i){var x=0,w=A.X(y.h),v,u,t,s,r
+var $async$bX=A.S(function(j,k){if(j===1)return A.U(k,w)
+while(true)switch(x){case 0:if(e===C.Y8)u="top"
+else u=e===C.M?"center":"bottom"
+t=d.a
+s=d.a
+r=g.a
+x=3
+return A.a0(C.S8.eD("showToast",A.aq(["msg",f,"length","short","time",1,"gravity",u,"bgcolor",t,"iosBgcolor",s,"textcolor",r,"iosTextcolor",g.a,"fontSize",null,"webShowClose",!1,"webBgColor",h,"webPosition",i],y.g,y.b),!1,y.e),$async$bX)
+case 3:v=k
+x=1
+break
+case 1:return A.V(v,w)}})
+return A.W($async$bX,w)},
+Mb:function Mb(d,e){this.a=d
+this.b=e}},A,C,D
+a.setFunctionNamesIfNecessary([B])
+B=a.updateHolder(c[30],B)
+A=c[0]
+C=c[40]
+D=c[2]
+B.Mb.prototype={
+j(d){return"ToastGravity."+this.b}}
+var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
+x(B.Mb,A.h6)})()
+A.ce(b.typeUniverse,JSON.parse("{}"))
+var y={g:A.G("j"),e:A.G("C"),b:A.G("@"),h:A.G("C?")};(function constants(){C.S8=new A.hV("PonnamKarthik/fluttertoast",D.aR,null)
+C.Y8=new B.Mb(0,"TOP")
+C.M=new B.Mb(2,"CENTER")})()}
+$__dart_deferred_initializers__["UNKKZiVcz1V+K7pni63Ek0PM2Ic="] = $__dart_deferred_initializers__.current

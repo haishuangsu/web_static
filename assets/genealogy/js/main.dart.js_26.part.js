@@ -241,7 +241,7 @@ w=A.G(x,w,d*4)
 w.toString}return w},
 zn(d,e,f,g,h){if(h)d.c8(0,this.k1.xC(e),f)
 if(g!=null)this.k1.vI(g).aH(d,e)},
-zo(d,e,f,g){var x,w=A.bG(),v=e.a,u=e.b
+zo(d,e,f,g){var x,w=A.bF(),v=e.a,u=e.b
 if(f<0.5){x=A.mZ(D.ST,D.uk,f*2)
 x.toString
 w.cw(0,v+2.6999999999999997,u+8.1)
@@ -322,7 +322,7 @@ B.MW.prototype={
 A(d,e){var x=null,w=A.ak("\u6ce8\u518c",x,x,x,x,x,x),v=A.ct(!1,!0,A.aX(O.bU,x,18),x,!0,x,x,x,x,x,x,x,x,x,new B.ab0(),x,x,x)
 w=F.Xi(!0,v,w)
 v=$.c_.aR()
-return P.fH(w,x,A.fG(!0,I.lr(A.be(A.a([A.aI(x,F.auI("assets/images/mbpage_bg.jpg","https://jsdelivr.panbaidu.cn/gh/haishuangsu/web_static/assets/genealogy/images/mbpage_bg.jpg"),C.l,x,x,x,x,32*v/100,x,new A.ad(0,0,0,20),x,x,x,1/0),F.Lw(new B.ab1(),new B.pV(A.aj(0,x,!1,y.Z)),x,y.c)],y.t),C.n,C.t,C.a2)),C.V,!0),x)}}
+return P.fH(w,x,A.fG(!0,I.lr(A.be(A.a([A.aI(x,F.auI("assets/images/mbpage_bg.jpg","https://cdn.jsdelivr.net/gh/haishuangsu/web_static/assets/genealogy/images/mbpage_bg.jpg"),C.l,x,x,x,x,32*v/100,x,new A.ad(0,0,0,20),x,x,x,1/0),F.Lw(new B.ab1(),new B.pV(A.aj(0,x,!1,y.Z)),x,y.c)],y.t),C.n,C.t,C.a2)),C.V,!0),x)}}
 B.pV.prototype={
 RY(){var x=y.X
 Q.nY("http://152.32.169.119:16868/users",A.ap(["email",this.a,"password",this.b,"nickname","\u65e0\u540d","gender","male"],x,x),null).aZ(0,new B.ab2(this),y.P).hR(new B.ab3()).e1(new B.ab4())},
@@ -423,18 +423,18 @@ $0(){return this.a.RY()},
 $S:21}
 B.ab2.prototype={
 $1(d){var x,w,v,u=null
-A.bg("\u5fc6\u5148\u65cf\u8c31 ====>>   "+("\u6ce8\u518c\u8bf7\u6c42\u8fd4\u56de: "+A.d(d)))
+A.d(d)
 x=J.aq(d)
 if(x.h(d,"email")!=null){x=x.h(d,"id")
 w=this.a
 v=w.a
 w=w.b
-A.bF(C.i,C.I,"\u6ce8\u518c\u6210\u529f",C.m,"#ffffff","center")
-A.ey($.a_(),new A.jh(x,u,u,u,u,v,u,u,u,u,u,u,u,w))}else A.bF(C.i,C.I,x.h(d,"message"),C.m,"#ffffff","center")
+A.bE(C.i,C.I,"\u6ce8\u518c\u6210\u529f",C.m,"#ffffff","center")
+A.ey($.a_(),new A.jh(x,u,u,u,u,v,u,u,u,u,u,u,u,w))}else A.bE(C.i,C.I,x.h(d,"message"),C.m,"#ffffff","center")
 this.a.a7()},
 $S:2}
 B.ab3.prototype={
-$1(d){A.bg(d)},
+$1(d){A.bR(d)},
 $S:2}
 B.ab4.prototype={
 $0(){},
@@ -471,4 +471,4 @@ D.uk=new A.o(7.2,12.6)
 D.SY=new A.o(15.299999999999999,4.5)
 D.UN=new A.M(18,18)
 D.fo=new A.hb(null,10,null,null)})()}
-$__dart_deferred_initializers__["1xOkRyEHamk27W7q96b+1xnKo90="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["l1TP94Rk7C1hRQFHknt7eGlQeso="] = $__dart_deferred_initializers__.current

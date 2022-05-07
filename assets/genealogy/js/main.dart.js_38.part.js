@@ -49,12 +49,12 @@ x.e=$.d9().az.h(0,"fromAvatar")
 x.f=$.d9().az.h(0,"id")
 x.r=$.d9().az.h(0,"to")
 x.x=$.d9().az.h(0,"count")
-A.bg("\u63a5\u6536\u5230\u53c2\u6570 => from: "+A.d(x.d)+", id: "+A.d(x.f)+", to: "+A.d(x.r)+", count: "+A.d(x.x)+", fromAvatar: "+A.d(x.e))},
+A.bR("\u63a5\u6536\u5230\u53c2\u6570 => from: "+A.d(x.d)+", id: "+A.d(x.f)+", to: "+A.d(x.r)+", count: "+A.d(x.x)+", fromAvatar: "+A.d(x.e))},
 A(d,e){var x,w,v,u,t,s,r,q=this,p=null,o=A.ak("\u9080\u8bf7\u6ce8\u518c",p,p,p,A.ao(p,p,p,p,p,p,p,p,p,p,p,16,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),n=A.ct(!1,!0,A.aX(M.bU,p,18),p,!0,p,p,p,p,p,p,p,p,p,new B.akB(),p,p,p)
 o=G.Xi(!0,n,o)
 n=$.c_.aR()
 x=y.o
-n=A.cc(C.r,A.a([A.Yu(A.aI(p,p,C.l,p,p,new A.bu(p,A.ast(C.di,new N.l5("https://jsdelivr.panbaidu.cn/gh/haishuangsu/web_static/assets/genealogy/images/mbpage_bg.jpg",1),p,C.b6),p,p,p,p,C.a5),p,32*n/100,p,p,p,p,p,1/0),C.ha,new B.Kk()),A.eB(-30,A.be(A.a([new K.kx(q.e,40,p),A.ay(p,6,p),A.ak(q.d,p,p,p,A.ao(p,p,C.D,p,p,p,p,p,p,p,p,16,p,C.ah,p,p,!0,p,p,p,p,p,p,p,p),p,p)],x),C.n,C.t,C.o),p,p,p,p,p,p)],x),C.l,C.U)
+n=A.cc(C.r,A.a([A.Yu(A.aI(p,p,C.l,p,p,new A.bt(p,A.ast(C.di,new N.l5("https://cdn.jsdelivr.net/gh/haishuangsu/web_static/assets/genealogy/images/mbpage_bg.jpg",1),p,C.b6),p,p,p,p,C.a5),p,32*n/100,p,p,p,p,p,1/0),C.ha,new B.Kk()),A.eB(-30,A.be(A.a([new K.kx(q.e,40,p),A.ay(p,6,p),A.ak(q.d,p,p,p,A.ao(p,p,C.D,p,p,p,p,p,p,p,p,16,p,C.ah,p,p,!0,p,p,p,p,p,p,p,p),p,p)],x),C.n,C.t,C.o),p,p,p,p,p,p)],x),C.l,C.U)
 w=A.ay(p,40,p)
 v=A.ao(p,p,C.D,p,p,p,p,p,p,p,p,15,p,C.ah,p,p,!0,p,p,p,p,p,p,p,p)
 u="\u201c"+A.d(q.r)+"\u201d"
@@ -66,7 +66,7 @@ r=A.d(q.x)+"\u4f4d"
 return O.fH(o,p,A.fG(!0,P.lr(A.be(A.a([n,w,v,u,A.u3(p,p,C.bc,!0,p,A.cH(A.a([A.cH(p,p,A.ao(p,p,A.YD(255,180,180,1),p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),r),A.cH(p,p,A.ao(p,p,C.D,p,p,p,p,p,p,p,p,15,p,C.ah,p,p,!0,p,p,p,p,p,p,p,p),"\u4eb2\u4eba\u52a0\u5165")],t),p,s,"\u5df2\u6709"),C.aC,p,p,1,C.aE),q.acL()],x),C.n,C.t,C.o)),C.V,!0),p)},
 acL(){return G.Lw(new B.akJ(this),K.axt(),new B.akK(),y.m)}}
 B.Kk.prototype={
-te(d){var x=d.b,w=d.a,v=A.bG(),u=x-70
+te(d){var x=d.b,w=d.a,v=A.bF(),u=x-70
 v.bl(0,0,u)
 v.aeT(w/2,x,w,u)
 v.bl(0,w,0)
@@ -149,4 +149,4 @@ x(B.Kk,A.rs)})()
 A.cQ(b.typeUniverse,JSON.parse('{"mJ":{"E":[],"f":[]},"R0":{"Q":["mJ*"]},"Kk":{"ab":[]}}'))
 var y={p:A.J("hM"),a:A.J("q<fZ*>"),o:A.J("q<f*>"),b:A.J("@"),m:A.J("h0*")};(function constants(){H.UQ=new A.hb(null,16,null,null)
 H.UU=new A.hb(null,8,null,null)})()}
-$__dart_deferred_initializers__["ku1+cfShN01BXAaz55TBegUgtdg="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["KBPPg/3f/tuiS7bZhWmo2ANbz44="] = $__dart_deferred_initializers__.current

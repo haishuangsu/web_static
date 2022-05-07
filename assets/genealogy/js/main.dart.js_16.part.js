@@ -145,8 +145,8 @@ _.b=d
 _.c=null
 _.$ti=e},
 aml:function aml(d){this.a=d},
-aJ7(d){var w=($.bn+1)%16777215
-$.bn=w
+aJ7(d){var w=($.bm+1)%16777215
+$.bm=w
 return new A.Bb(null,w,d,D.aa)},
 abb:function abb(){},
 ann:function ann(d){this.a=d},
@@ -252,7 +252,7 @@ return w},
 atv(d){var w
 if(d==null||d.length===0)return!1
 w=B.cb("^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",!0)
-if(typeof d!="string")B.F(B.bR(d))
+if(typeof d!="string")B.F(B.bQ(d))
 if(!w.b.test(d))return!1
 return!0}},B,D,E,C,F,G,H,J,I
 a.setFunctionNamesIfNecessary([A])
@@ -305,12 +305,12 @@ if(v!=null)v.mx(0)},
 Xh(d){var w,v
 if(d instanceof B.k9){w=this.e
 if(d.df$===0){v=d.a
-v=Math.max(v.gd5()-v.gfQ(),0)>0&&B.bz(v.e)===D.bs}else v=!1
+v=Math.max(v.gd5()-v.gfQ(),0)>0&&B.by(v.e)===D.bs}else v=!1
 this.e=v
 if(v!==w)this.af(new A.ahj())}},
 A(a8,a9){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0=this,a1=null,a2="Open navigation menu",a3=B.aG(a9),a4=a3.ch,a5=B.aG(a9).bs,a6=a9.oa(x.S),a7=B.zF(a9,x.X)
 a9.X(x.B)
-w=B.bq(x.g)
+w=B.bp(x.g)
 v=a0.e
 if(v)w.E(0,C.Su)
 v=a6==null
@@ -528,15 +528,15 @@ w=v.ck
 return this.e.$3(d,w.gk(w),e)}}
 A.zh.prototype={}
 A.mF.prototype={
-c7(d){var w=($.bn+1)%16777215
-$.bn=w
+c7(d){var w=($.bm+1)%16777215
+$.bm=w
 return new A.Dv(null,w,this,D.aa)},
 MA(d,e){return new A.fc(this,e,null,this.$ti.i("fc<mF.T*>"))}}
 A.Dv.prototype={}
 A.fc.prototype={
 cR(d){return!1},
-c7(d){var w=B.dQ(x.h,x.X),v=($.bn+1)%16777215
-$.bn=v
+c7(d){var w=B.dQ(x.h,x.X),v=($.bm+1)%16777215
+$.bm=v
 return new A.qA(w,v,this,D.aa,this.$ti.i("qA<1*>"))}}
 A.qt.prototype={}
 A.qA.prototype={
@@ -551,7 +551,7 @@ if(w.i("z*(1*)*").b(e)){t=t?new A.qt(B.a([],w.i("q<z*(1*)*>")),w.i("qt<1*>")):u
 w.i("qt<1*>*").a(t)
 if(t.a){t.a=!1
 D.c.sp(t.c,0)}if(!t.b){t.b=!0
-$.bC.db$.push(new A.akn(t))}t.c.push(e)
+$.bB.db$.push(new A.akn(t))}t.c.push(e)
 v.m(0,d,t)}else v.m(0,d,D.ej)},
 DI(d,e){var w,v,u,t,s,r=this.bX.h(0,e),q=!1
 if(r!=null)if(this.$ti.i("qt<1*>*").b(r)){if(e.cx)return
@@ -624,7 +624,7 @@ return v.Uq(0,e)}}
 A.Lv.prototype={
 j(d){var w=this.a,v=this.b
 return"Error: Could not find the correct Provider<"+w.j(0)+"> above this "+v.j(0)+' Widget\n\nThis happens because you used a `BuildContext` that does not include the provider\nof your choice. There are a few common scenarios:\n\n- You added a new provider in your `main.dart` and performed a hot-reload.\n  To fix, perform a hot-restart.\n\n- The provider you are trying to read is in a different route.\n\n  Providers are "scoped". So if you insert of provider inside a route, then\n  other routes will not be able to access that provider.\n\n- You used a `BuildContext` that is an ancestor of the provider you are trying to read.\n\n  Make sure that '+v.j(0)+" is under your MultiProvider/Provider<"+w.j(0)+">.\n  This usually happens when you are creating a provider and trying to read it immediately.\n\n  For example, instead of:\n\n  ```\n  Widget build(BuildContext context) {\n    return Provider<Example>(\n      create: (_) => Example(),\n      // Will throw a ProviderNotFoundError, because `context` is associated\n      // to the widget that is the parent of `Provider<Example>`\n      child: Text(context.watch<Example>()),\n    ),\n  }\n  ```\n\n  consider using `builder` like so:\n\n  ```\n  Widget build(BuildContext context) {\n    return Provider<Example>(\n      create: (_) => Example(),\n      // we use `builder` to obtain a new `BuildContext` that has access to the provider\n      builder: (context) {\n        // No longer throws\n        return Text(context.watch<Example>()),\n      }\n    ),\n  }\n  ```\n\nIf none of these solutions work, consider asking for help on StackOverflow:\nhttps://stackoverflow.com/questions/tagged/flutter\n"},
-$ibI:1}
+$ibH:1}
 var z=a.updateTypes(["~()","~(en)","~(a0*,aO*)","~()*(Jr<ab*>*,ab*)"])
 A.ahj.prototype={
 $0(){},
@@ -681,7 +681,7 @@ v(A.qA,B.cf)
 v(A.vo,A.PS)
 v(A.CQ,A.jn)
 w(A.Tz,A.abb)})()
-B.cQ(b.typeUniverse,JSON.parse('{"wX":{"E":[],"f":[]},"Sv":{"M":[]},"CD":{"Q":["wX"]},"OH":{"b_":[],"aA":[],"f":[]},"SK":{"A":[],"aS":["A"],"t":[],"X":[]},"H7":{"af":[],"f":[]},"H6":{"af":[],"f":[]},"wV":{"e2":[],"X":[]},"Az":{"A":[],"aS":["A"],"t":[],"X":[]},"wU":{"b_":[],"aA":[],"f":[]},"Kq":{"af":[],"f":[]},"wo":{"O":[]},"K2":{"af":[],"f":[]},"tQ":{"E":[],"f":[]},"Ek":{"Q":["tQ<1*>*"]},"ls":{"af":[],"f":[]},"Bb":{"aZ":[],"a0":[]},"xk":{"mF":["1*"],"ls":[],"af":[],"f":[],"mF.T":"1*"},"xu":{"ls":[],"af":[],"f":[]},"zh":{"mF":["1*"],"ls":[],"af":[],"f":[]},"Jr":{"a0":[]},"fc":{"bf":[],"b8":[],"f":[]},"mF":{"ls":[],"af":[],"f":[]},"Dv":{"aZ":[],"a0":[]},"qA":{"cf":[],"aZ":[],"Jr":["1*"],"a0":[]},"CQ":{"jn":["1*","vo<1*>*"],"jn.D":"vo<1*>*"},"Lv":{"bI":[]}}'))
+B.cQ(b.typeUniverse,JSON.parse('{"wX":{"E":[],"f":[]},"Sv":{"M":[]},"CD":{"Q":["wX"]},"OH":{"b_":[],"aA":[],"f":[]},"SK":{"A":[],"aS":["A"],"t":[],"X":[]},"H7":{"af":[],"f":[]},"H6":{"af":[],"f":[]},"wV":{"e2":[],"X":[]},"Az":{"A":[],"aS":["A"],"t":[],"X":[]},"wU":{"b_":[],"aA":[],"f":[]},"Kq":{"af":[],"f":[]},"wo":{"O":[]},"K2":{"af":[],"f":[]},"tQ":{"E":[],"f":[]},"Ek":{"Q":["tQ<1*>*"]},"ls":{"af":[],"f":[]},"Bb":{"aZ":[],"a0":[]},"xk":{"mF":["1*"],"ls":[],"af":[],"f":[],"mF.T":"1*"},"xu":{"ls":[],"af":[],"f":[]},"zh":{"mF":["1*"],"ls":[],"af":[],"f":[]},"Jr":{"a0":[]},"fc":{"bf":[],"b8":[],"f":[]},"mF":{"ls":[],"af":[],"f":[]},"Dv":{"aZ":[],"a0":[]},"qA":{"cf":[],"aZ":[],"Jr":["1*"],"a0":[]},"CQ":{"jn":["1*","vo<1*>*"],"jn.D":"vo<1*>*"},"Lv":{"bH":[]}}'))
 B.qN(b.typeUniverse,JSON.parse('{"zh":1,"Jr":1,"Dv":1,"PS":1}'))
 var y={b:"`null` encountered as case in a switch expression with a non-nullable enum type."}
 var x=(function rtii(){var w=B.J
@@ -699,10 +699,10 @@ C.zp=new B.v(4294937216)
 C.zo=new B.v(4294922834)
 C.zn=new B.v(4294907716)
 C.za=new B.v(4292149248)
-C.QK=new B.bO([100,C.zp,200,C.zo,400,C.zn,700,C.za],B.J("bO<n*,v*>"))
+C.QK=new B.bN([100,C.zp,200,C.zo,400,C.zn,700,C.za],B.J("bN<n*,v*>"))
 C.u6=new B.K4(C.QK,4294922834)
 C.Su=new B.cl(5,"scrolledUnder")
 C.fV=new A.wo(0,"leading")
 C.fW=new A.wo(1,"middle")
 C.fX=new A.wo(2,"trailing")})()}
-$__dart_deferred_initializers__["I2sNoz4gK9ShtHBvXR1R7VeIKq8="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["9/v2H0wRPG3IRctHe468IOUWkhU="] = $__dart_deferred_initializers__.current

@@ -23,7 +23,7 @@ C.nr.prototype={
 S(){return new C.Of(A.aF(255,93,112,183),new A.v(4292991162),B.k)}}
 C.Of.prototype={
 A(d,e){var x,w,v,u,t=this,s=null
-A.bg("width => "+A.d($.eG.aR())+", height => "+A.d($.c_.aR())+", device => "+A.d($.abe.aR())+", orien => "+A.d($.abf.aR()))
+A.bR("width => "+A.d($.eG.aR())+", height => "+A.d($.c_.aR())+", device => "+A.d($.abe.aR())+", orien => "+A.d($.abf.aR()))
 x=A.aF(255,237,237,237)
 w=y.c
 x=A.e8(s,s,s,new A.aD(new A.ad(30*$.c_.aR()/100,0,30*$.c_.aR()/100,0),A.bc(A.a([F.oO("app_logo.png",s,s,s,50,50),A.ay(s,s,10),A.ak("\u5fc6\u5148\u65cf\u8c31",s,s,s,A.ao(s,s,B.m,s,s,s,s,s,s,s,s,24,s,B.ah,s,s,!0,s,s,s,s,s,s,s,s),s,s)],w),B.n,B.t,B.o),s),x,s,90,s,s,s)
@@ -34,11 +34,11 @@ xt(d,e,f,g){var x=null
 return A.be(A.a([A.e8(x,x,A.ew(40),f,d,x,x,x,new A.ad(16,16,16,16),x),A.ay(x,8,x),A.ak(g,x,x,x,A.ao(x,x,B.i,x,x,x,x,x,x,x,x,18,x,B.ah,x,x,!0,x,x,x,x,x,x,x,x),x,x),A.ay(x,8,x),A.ak(e,x,x,x,A.ao(x,x,B.i,x,x,x,x,x,x,x,x,14,x,B.ah,x,x,!0,x,x,x,x,x,x,x,x),x,x)],y.c),B.n,B.t,B.o)}}
 var z=a.updateTypes([])
 C.aga.prototype={
-$0(){A.bF(B.i,B.I,"\u5f00\u59cb\u5f55\u5165...",B.m,"#ffffff","center")
+$0(){A.bE(B.i,B.I,"\u5f00\u59cb\u5f55\u5165...",B.m,"#ffffff","center")
 return null},
 $S:0}
 C.agb.prototype={
-$0(){A.bF(B.i,B.I,"\u53d1\u90ae\u4ef6...",B.m,"#ffffff","center")
+$0(){A.bE(B.i,B.I,"\u53d1\u90ae\u4ef6...",B.m,"#ffffff","center")
 return null},
 $S:0};(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(C.nr,A.E)
@@ -47,4 +47,4 @@ w(A.dl,[C.aga,C.agb])})()
 A.cQ(b.typeUniverse,JSON.parse('{"nr":{"E":[],"f":[]},"Of":{"Q":["nr*"]}}'))
 var y={c:A.J("q<f*>")};(function constants(){D.AE=new A.ad(0,20,0,0)
 D.AH=new A.ad(0,40,0,40)})()}
-$__dart_deferred_initializers__["vKyp1XusWRZLOyW6DQpUYx/1eaI="] = $__dart_deferred_initializers__.current
+$__dart_deferred_initializers__["RdkT9aTNLY5zhLzWXyUW2FATjOM="] = $__dart_deferred_initializers__.current
